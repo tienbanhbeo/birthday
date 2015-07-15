@@ -11,7 +11,61 @@
 	</head>
 	<body>
 		<div class="container">
-			
+			<div class="navbar navbar-default">
+				<div class="container-fluid">
+					<div class="navbar-header">
+						<img src="images/15.jpg" style="width:100px; height:100px ">
+						<a  href="#" style="color: yellow">HAPPY BIRTHDAY</a>
+						<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#mynavbar-content">
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+						</button>
+						<div>
+							<div id="navbar" class="navbar-collapse collapse">
+		          			<ul class="nav navbar-nav navbar-right nav01">
+		          				<li><a href="#"data-toggle="modal" data-target="#myModal"><span ></span> Gift</a>
+				        			<div class="modal fade" id="myModal">
+										<div class="modal-dialog">
+											<div class="modal-content">
+												<!-- Modal Header -->
+												<div class="modal-header">
+													<button type="button" class="close" data-dismiss="modal">&times;</button>
+													<h4 class="modal-title">Gift</h4>
+												</div>
+												<!-- Modal Body -->
+												<div class="modal-body">
+													<img id="gift" onclick="opengift()" src="images/.jpg">
+													<p> Click : have a big gift ^_^ </p>
+												</div>
+								</li>
+						</div>
+					</div>
+			  	</div>
+			</div>
+			<div>
+				<h1>Click to burn candle</h1>
+				<img id="light" onclick="changeimg()" src="images/14.jpg">
+			</div>
+
 		</div>
+	<script>
+		function opengift() {
+			// body...
+			var i;
+			var img=document.getElementById('gift');
+			for(i=0;i<=3;i++){
+
+			}
+		}
+		function changeimg() {
+	    var image = document.getElementById('light');
+	    if (image.src.match("bulbon")) {
+	        image.src = "images/14.jpg";
+	    } else {
+	        image.src = "images/13.jpg";
+	    }
+	}
+	</script>
 	</body>
 </html>
