@@ -66,10 +66,11 @@ a{
 .clearfix { display: block; }
 /* close commented backslash hack */
 /**************** MAIN************/
-=======
+
 .img-center {
 	margin: 0 auto;
 }
+<<<<<<< HEAD
 #logo{
 	height: 100px;
 }
@@ -91,3 +92,5 @@ a{
 	margin-left: 420px;
     padding-top: 20px;
 }
+=======
+>>>>>>> 4328fd22c977b093d3d5085fb523273ce7e998a0
