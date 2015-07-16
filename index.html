@@ -51,7 +51,7 @@
 			</div>
 			<div>
 				<h4 style="color:#15bf31 ">Click to burn candle</h4>
-				<img id="light" onclick="changeimg()" src="images/14.jpg">
+				<img id="light" onclick="changeimg()" src="images/14.jpg" class="img-center">
 			</div>
 			<div>
 				<p> Chúc mưng sinh nhật thầy - Doraemon :p </p>
@@ -69,67 +69,31 @@
 					<!-- Wrapper for slides -->
 					<div class="carousel-inner">
 						<div class="item active">
-							<img src="images/1.jpg" width="900" height="30" class="img-responsive">
-							<blockquote>
-								<p></p>
-								<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam vulputate, metus tempus malesuada lacinia, lorem sapien</p>
-								<p></p>
-								<footer>RoyneyBada</footer>
-							</blockquote>
+							<img src="images/1.jpg" width="900" height="30" class="img-responsive img-center">
+
 						</div>
 						<div class="item">
-							<img src="images/2.jpg" width="900" height="30" class="img-responsive-center-block">
-							<blockquote>
-								<p></p>
-								<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam vulputate, metus tempus malesuada lacinia, lorem sapien</p>
-								<p></p>
-								<footer>BuckBud</footer>
-							</blockquote>
+							<img src="images/2.jpg" width="900" height="30" class="img-responsive img-center">
+							
 						</div>
 						<div class="item">
-							<img src="images/9.jpg"width="900" height="30" class="img-responsive">
-							<blockquote>
-								<p></p>
-								<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam vulputate, metus tempus malesuada lacinia, lorem sapien</p>
-								<p></p>
-								<footer>BuckBud</footer>
-							</blockquote>
+							<img src="images/9.jpg"width="900" height="30" class="img-responsive img-center">
+							
 						</div>
 						<div class="item">
-							<img src="images/5.jpg"width="900" height="30" class="img-responsive">
-							<blockquote>
-								<p></p>
-								<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam vulputate, metus tempus malesuada lacinia, lorem sapien</p>
-								<p></p>
-								<footer>BuckBud</footer>
-							</blockquote>
+							<img src="images/5.jpg"width="900" height="30" class="img-responsive img-center">
+							
 						</div>
 						<div class="item">
-							<img src="images/11.jpg"width="900" height="30" class="img-responsive">
-							<blockquote>
-								<p></p>
-								<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam vulputate, metus tempus malesuada lacinia, lorem sapien</p>
-								<p></p>
-								<footer>BuckBud</footer>
-							</blockquote>
+							<img src="images/11.jpg"width="900" height="30" class="img-responsive img-center">
+							
 						</div>
 						<div class="item">
-							<img src="images/8.jpg"width="900" height="30" class="img-responsive" >
-							<blockquote>
-								<p></p>
-								<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam vulputate, metus tempus malesuada lacinia, lorem sapien</p>
-								<p></p>
-								<footer>BuckBud</footer>
-							</blockquote>
+							<img src="images/8.jpg"width="900" height="30" class="img-responsive img-center" >
+							
 						</div>
 						<div class="item">
-							<img src="images/6.jpg"width="900" height="30" class="img-responsive">
-							<blockquote>
-								<p></p>
-								<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam vulputate, metus tempus malesuada lacinia, lorem sapien</p>
-								<p></p>
-								<footer>BuckBud</footer>
-							</blockquote>
+							<img src="images/6.jpg"width="900" height="30" class="img-responsive img-center">
 						</div>
 					</div>
 					<!-- Controls -->
@@ -142,16 +106,16 @@
 				</div>
 			</div>
 			<div>
-				<img src="images/16.gif">	
+				<img src="images/16.gif" class="img-responsive img-center">	
 			</div>
 			<div>
 				<button data-toggle="modal" data-target="#myModal" > Happy brithday to ciu-te teacher (26 years old) </button>
 			</div>	
-
+			<img src="images/1.jpg" id="pic1" onclick="changeimg1("images/2.jpg")">
+			<!-- <img src="images/1.jpg" id="pic1"onclick="chageIcon(document.getElementById("pic1"),"images/2.jpg");"> -->
 		</div>
 	<script>
 		function opengift() {
-			// body...
 			var i;
 			var img=document.getElementById('gift');
 			for(i=0;i<=3;i++){
@@ -160,10 +124,23 @@
 		}
 		function changeimg() {
 	    var image = document.getElementById('light');
-	    if (image.src.match("bulbon")) {
+	    if (image.src.match("13")) {
 	        image.src = "images/14.jpg";
 	    } else {
 	        image.src = "images/13.jpg";
+	    }
+	    function changeimg1 (pic) {
+	    	document.getElementById('pic1').src = pic;
+	    }
+	    function chageIcon(domImg,srcImage)
+	    {
+	        var img = new Image();
+	        img.onload = function()
+	        {
+	            // Load completed
+	            domImg.src = this.src;
+	        };
+	        img.src = srcImage;
 	    }
 	}
 	</script>
