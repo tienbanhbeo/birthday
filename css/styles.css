@@ -83,6 +83,21 @@ a{
  		url('font/HAPPYdave.ttf') format('truetype'),
  		url('font/HAPPYdave.woff') format('woff');
 }
+@font-face {
+	font-family: '-TMC-OngDo';
+	src: url('font/-TMC-OngDo.eot');
+	src: url('font/-TMC-OngDo.eot?#iefix') format('embedded-opentype'),
+ 		url('font/-TMC-OngDo.svg') format('svg'),
+ 		url('font/-TMC-OngDo.ttf') format('truetype');
+}
+@font-face {
+	font-family: 'UVNBucThu';
+	src: url('font/UVNBucThu.eot');
+	src: url('font/UVNBucThu.eot?#iefix') format('embedded-opentype'),
+ 		url('font/UVNBucThu.svg') format('svg'),
+ 		url('font/UVNBucThu.ttf') format('truetype'),
+ 		url('font/UVNBucThu.woff') format('woff');
+}
 /* close commented backslash hack */
 /**************** MAIN************/
 /*.container-header{
@@ -173,4 +188,9 @@ a{
 	font-family: 'Gretoon';
 	font-size: 15px;
 	color: green;
+}
+.p2 {
+	font-family: 'UVNBucThu';
+	color: blue;
+	font-size: 25px;
 }
