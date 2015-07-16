@@ -44,7 +44,7 @@
 											<!-- Modal Body -->
 											<div class="modal-body">
 												<img id="gift" onclick="opengift()" src="images/20.jpg">
-												<p> Click : have a big gift ^_^ </p>
+												<p id="click"> Click : have a big gift ^_^ </p>
 											</div>
 							</li>
 							<li><a href="#">Have nice day :D </a></li>
@@ -127,6 +127,7 @@
 		    } else {
 		        image.src = "images/21.jpg";
 		    }
+		    document.getElementById('click').innerHTML = "nhau thay oi";
 		}
 		function changeimg() {
 	    var image = document.getElementById('light');
