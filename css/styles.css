@@ -66,11 +66,12 @@ a{
 .clearfix { display: block; }
 /* close commented backslash hack */
 /**************** MAIN************/
-
+.container-header{
+	height: 9000px;
+}
 .img-center {
 	margin: 0 auto;
 }
-<<<<<<< HEAD
 #logo{
 	height: 100px;
 }
@@ -91,6 +92,55 @@ a{
 #light{
 	margin-left: 420px;
     padding-top: 20px;
+    padding-bottom: 30px;
 }
-=======
->>>>>>> 4328fd22c977b093d3d5085fb523273ce7e998a0
+#carouesel01{
+	padding-bottom: 50px;
+}
+#css301{
+	height: 700px;
+	padding-bottom: 20px;
+}
+#css3{
+    width: 370px;
+    height: 270px;
+    position: relative;
+    /* Chrome, Safari, Opera */
+    -webkit-animation-name: example;
+    -webkit-animation-duration: 5s;
+    -webkit-animation-timing-function: linear;
+    -webkit-animation-delay: 2s;
+    -webkit-animation-iteration-count: infinite;
+    -webkit-animation-direction: alternate;
+    /* Standard syntax */
+    animation-name: example;
+    animation-duration: 5s;
+    animation-timing-function: linear;
+    animation-delay: 2s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+
+/* Chrome, Safari, Opera */
+@-webkit-keyframes example {
+    0%   {/*background-color:red;*/ left:0px; top:0px;}
+    25%  {/*background-color:yellow;*/ left:800px; top:0px;}
+    50%  {/*background-color:blue;*/ left:800px; top:200px;}
+    75%  {/*background-color:green;*/ left:0px; top:200px;}
+    100% {/*background-color:red;*/ left:0px; top:0px;}
+}
+
+/* Standard syntax */
+@keyframes example {
+    0%   {/*background-color:red;*/ left:0px; top:0px;}
+    25%  {/*background-color:yellow;*/ left:800px; top:0px;}
+    50%  {/*background-color:blue;*/ left:800px; top:200px;}
+    75%  {/*background-color:green; */left:0px; top:200px;}
+    100% {/*background-color:red; */left:0px; top:0px;}
+}
+}
+#footer01{
+	padding-top: 800px;
+	margin-bottom: 900px;
+}
+
