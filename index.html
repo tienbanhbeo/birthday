@@ -111,7 +111,7 @@
 			<div>
 				<button data-toggle="modal" data-target="#myModal" > Happy brithday to ciu-te teacher (26 years old) </button>
 			</div>	
-			<img src="images/1.jpg" id="pic1" onclick="changeimg1("images/2.jpg")">
+			<!-- <img src="images/1.jpg" id="pic1" onclick="changeimg1("images/2.jpg")"> -->
 			<!-- <img src="images/1.jpg" id="pic1"onclick="chageIcon(document.getElementById("pic1"),"images/2.jpg");"> -->
 		</div>
 	<script>
@@ -129,19 +129,19 @@
 	    } else {
 	        image.src = "images/13.jpg";
 	    }
-	    function changeimg1 (pic) {
-	    	document.getElementById('pic1').src = pic;
-	    }
-	    function chageIcon(domImg,srcImage)
-	    {
-	        var img = new Image();
-	        img.onload = function()
-	        {
-	            // Load completed
-	            domImg.src = this.src;
-	        };
-	        img.src = srcImage;
-	    }
+	    // function changeimg1 (pic) {
+	    // 	document.getElementById('pic1').src = pic;
+	    // }
+	    // function chageIcon(domImg,srcImage)
+	    // {
+	    //     var img = new Image();
+	    //     img.onload = function()
+	    //     {
+	    //         // Load completed
+	    //         domImg.src = this.src;
+	    //     };
+	    //     img.src = srcImage;
+	    // }
 	}
 	</script>
 	</body>
