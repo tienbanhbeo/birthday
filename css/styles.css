@@ -64,11 +64,30 @@ a{
 /* start commented backslash hack \*/
 * html .clearfix { height: 1%; }
 .clearfix { display: block; }
+
+/*font face*/
+
+@font-face {
+	font-family: 'Gretoon';
+	src: url('font/Gretoon.eot');
+	src: url('font/Gretoon.eot?#iefix') format('embedded-opentype'),
+ 		url('font/Gretoon.svg') format('svg'),
+ 		url('font/Gretoon.ttf') format('truetype'),
+ 		url('font/Gretoon.woff') format('woff');
+}
+@font-face {
+	font-family: 'HAPPYdave';
+	src: url('font/HAPPYdave.eot');
+	src: url('font/HAPPYdave.eot?#iefix') format('embedded-opentype'),
+ 		url('font/HAPPYdave.svg') format('svg'),
+ 		url('font/HAPPYdave.ttf') format('truetype'),
+ 		url('font/HAPPYdave.woff') format('woff');
+}
 /* close commented backslash hack */
 /**************** MAIN************/
-.container-header{
+/*.container-header{
 	height: 9000px;
-}
+}*/
 .img-center {
 	margin: 0 auto;
 }
@@ -140,7 +159,18 @@ a{
 }
 }
 #footer01{
-	padding-top: 800px;
-	margin-bottom: 900px;
+/*	/*padding-top: 800px;*/
+	/*margin-bottom: 900px;*/*/
 }
-
+.doraemon {
+	font-family: 'Gretoon';
+	font-size: 20px;
+	text-align: center;
+	color: red;
+}
+.p1 {
+	padding-top: 7px;
+	font-family: 'Gretoon';
+	font-size: 15px;
+	color: green;
+}
