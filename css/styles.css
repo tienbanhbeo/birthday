@@ -83,6 +83,29 @@ a{
  		url('font/HAPPYdave.ttf') format('truetype'),
  		url('font/HAPPYdave.woff') format('woff');
 }
+@font-face {
+	font-family: '-TMC-OngDo';
+	src: url('font/-TMC-OngDo.eot');
+	src: url('font/-TMC-OngDo.eot?#iefix') format('embedded-opentype'),
+ 		url('font/-TMC-OngDo.svg') format('svg'),
+ 		url('font/-TMC-OngDo.ttf') format('truetype');
+}
+@font-face {
+	font-family: 'UVNBucThu';
+	src: url('font/UVNBucThu.eot');
+	src: url('font/UVNBucThu.eot?#iefix') format('embedded-opentype'),
+ 		url('font/UVNBucThu.svg') format('svg'),
+ 		url('font/UVNBucThu.ttf') format('truetype'),
+ 		url('font/UVNBucThu.woff') format('woff');
+}
+@font-face {
+	font-family: 'VLAngelline';
+	src: url('font/VLAngelline.eot');
+	src: url('font/VLAngelline.eot?#iefix') format('embedded-opentype'),
+ 		url('font/VLAngelline.svg') format('svg'),
+ 		url('font/VLAngelline.ttf') format('truetype'),
+ 		url('font/VLAngelline.woff') format('woff');
+}
 /* close commented backslash hack */
 /**************** MAIN************/
 /*.container-header{
@@ -93,13 +116,17 @@ a{
 }
 #logo{
 	height: 100px;
+	padding-top: 10px;
 }
 #logo1{
+	margin-top: 5px;
+	font-family: 'VLAngelline';
 	font-size: 30px;
 	color: white;
     text-shadow: 9px 3px 2px black, 0 0 30px blue, 0 0 30px darkblue;
     padding-left: 30px;
     padding-top: auto;
+    text-decoration: none;
 }
 #logo2{
 	float: left;
@@ -169,10 +196,11 @@ a{
 }
 .p1 {
 	padding-top: 7px;
-	font-family: 'Gretoon';
-	font-size: 15px;
+	font-family: 'VLAngelline';
+	font-size: 20px;
 	color: green;
 }
+<<<<<<< HEAD
 #footer02{
 	margin-left: 380px;
 }
@@ -191,4 +219,11 @@ a{
     -webkit-border-image: url('../images/50-.png') 30 stretch; /* Safari 3.1-5 */
     -o-border-image: url('../images50.png/') 30 stretch; /* Opera 11-12.1 */
     border-image: url('../images/50.png') 35 stretch;
+=======
+.p2 {
+	font-family: 'UVNBucThu';
+	color: blue;
+	font-size: 55px;
+	text-align: center;
+>>>>>>> 8fa9cf5a1a2106dee9cd73f3ddfdfd1b863fdd72
 }
