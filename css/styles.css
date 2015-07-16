@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 /* http://meyerweb.com/eric/tools/css/reset/ 
    v2.0 | 20110126
    License: none (public domain)
@@ -70,4 +70,24 @@ a{
 .img-center {
 	margin: 0 auto;
 }
->>>>>>> 7dff129b0168bc8b5e1d933d16704cdf2581440c
+#logo{
+	height: 100px;
+}
+#logo1{
+	font-size: 30px;
+	color: white;
+    text-shadow: 9px 3px 2px black, 0 0 30px blue, 0 0 30px darkblue;
+    padding-left: 30px;
+    padding-top: auto;
+}
+#logo2{
+	float: left;
+}
+#burn{
+	margin-left: auto;
+	margin-right: auto;
+}
+#light{
+	margin-left: 420px;
+    padding-top: 20px;
+}
